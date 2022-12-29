@@ -1,150 +1,193 @@
 @font-face {
-    font-family: 'Conv_PlayfairDisplay-Regular';
-    src: url('../fonts/PlayfairDisplay-Regular.eot');
-    src: local('☺'), url('../fonts/PlayfairDisplay-Regular.woff') format('woff'), url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype'), url('../fonts/PlayfairDisplay-Regular.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Conv_PlayfairDisplay-Regular";
+  src: url("../fonts/PlayfairDisplay-Regular.eot");
+  src: local("☺"), url("../fonts/PlayfairDisplay-Regular.woff") format("woff"),
+    url("../fonts/PlayfairDisplay-Regular.ttf") format("truetype"),
+    url("../fonts/PlayfairDisplay-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-    font-family: 'Conv_Lato-Bold';
-    src: url('../fonts/Lato-Bold.eot');
-    src: local('☺'), url('../fonts/Lato-Bold.woff') format('woff'), url('../fonts/Lato-Bold.ttf') format('truetype'), url('../fonts/Lato-Bold.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Conv_Lato-Bold";
+  src: url("../fonts/Lato-Bold.eot");
+  src: local("☺"), url("../fonts/Lato-Bold.woff") format("woff"),
+    url("../fonts/Lato-Bold.ttf") format("truetype"),
+    url("../fonts/Lato-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-    font-family: 'Conv_Lato-Light';
-    src: url('../fonts/Lato-Light.eot');
-    src: local('☺'), url('../fonts/Lato-Light.woff') format('woff'), url('../fonts/Lato-Light.ttf') format('truetype'), url('../fonts/Lato-Light.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Conv_Lato-Light";
+  src: url("../fonts/Lato-Light.eot");
+  src: local("☺"), url("../fonts/Lato-Light.woff") format("woff"),
+    url("../fonts/Lato-Light.ttf") format("truetype"),
+    url("../fonts/Lato-Light.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-    font-family: 'Conv_Lato-Regular';
-    src: url('../fonts/Lato-Regular.eot');
-    src: local('☺'), url('../fonts/Lato-Regular.woff') format('woff'), url('../fonts/Lato-Regular.ttf') format('truetype'), url('../fonts/Lato-Regular.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Conv_Lato-Regular";
+  src: url("../fonts/Lato-Regular.eot");
+  src: local("☺"), url("../fonts/Lato-Regular.woff") format("woff"),
+    url("../fonts/Lato-Regular.ttf") format("truetype"),
+    url("../fonts/Lato-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Conv_PlayfairDisplay-Italic';
-    src: url('../fonts/PlayfairDisplay-Italic.eot');
-    src: local('☺'), url('../fonts/PlayfairDisplay-Italic.woff') format('woff'), url('../fonts/PlayfairDisplay-Italic.ttf') format('truetype'), url('../fonts/PlayfairDisplay-Italic.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Conv_PlayfairDisplay-Italic";
+  src: url("../fonts/PlayfairDisplay-Italic.eot");
+  src: local("☺"), url("../fonts/PlayfairDisplay-Italic.woff") format("woff"),
+    url("../fonts/PlayfairDisplay-Italic.ttf") format("truetype"),
+    url("../fonts/PlayfairDisplay-Italic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .container {
-    max-width: 1440px;
-    margin: 0 auto;
-    background-image: url(/src/images/first-screen-image.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-top: 30px;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-image: url(/src/images/first-screen-image.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 30px;
 }
 
 .header {
-    background: linear-gradient(270deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.244636) 24.1%, rgba(255, 255, 255, 0) 47.19%), rgba(255, 255, 255, 0.02);
-    backdrop-filter: blur(4.5px);
+  background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0.244636) 24.1%,
+      rgba(255, 255, 255, 0) 47.19%
+    ),
+    rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(4.5px);
 }
 
 .content-container {
-    max-width: 1170px;
-    margin: 0 auto;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
 .header__container {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 24px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0;
 }
 
 .navigation__list {
-    display: flex;
-    gap: 30px;
-    align-items: center;
+  display: flex;
+  gap: 30px;
+  align-items: center;
 }
 
 .navigation__item {
-    position: relative;
+  position: relative;
 }
 
 .navigation__link {
-    font-family: 'Conv_Lato-Regular', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    text-decoration: none;
-    letter-spacing: 0.08em;
-    color: #262A3F;
+  font-family: "Conv_Lato-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  letter-spacing: 0.08em;
+  color: #262a3f;
 }
 
-.navigation__link-active::after, .navigation__list .navigation__link:hover:after {
-    content: "";
-    width: 100%;
-    height: 3px;
-    position: absolute;
-    background-color: #F1897B;
-    bottom: -5px;
-    left: 0;
+.navigation__link-active::after,
+.navigation__list .navigation__link:hover:after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  background-color: #f1897b;
+  bottom: -5px;
+  left: 0;
 }
 
 .join {
-    margin: 150px auto;
+  margin: 150px auto;
 }
 
 .join__container {
-    max-width: 523px;
+  max-width: 523px;
 }
 
-.join__title {
-    font-family: 'Conv_PlayfairDisplay-Regular', sans-serif;
-    font-weight: 400;
-    font-size: 44px;
-    line-height: 52px;
-    color: #262A3F;
+.join__title,
+.title {
+  font-family: "Conv_PlayfairDisplay-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 52px;
+  color: #262a3f;
 }
 
-.join__title-style {
-    font-style: italic;
-    color: #85BBB1;
+.join__title-style,
+.title__span {
+  font-style: italic;
+  color: #85bbb1;
 }
 
-.join__text {
-    max-width: 439px;
-    font-family: 'Conv_Lato-Light', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 26px;
-    color: #262A3F;
-    opacity: 0.8;
-    margin: 20px 0 50px 0;
+.join__text,
+.text {
+  max-width: 439px;
+  font-family: "Conv_Lato-Light", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #262a3f;
+  opacity: 0.8;
+  margin: 20px 0 50px 0;
 }
 
 .button {
-    position: relative;
-    border: none;
-    background: none;
-    font-family: 'Conv_Lato-Bold', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #F1897B;
-    padding: 0;
+  position: relative;
+  border: none;
+  background: none;
+  font-family: "Conv_Lato-Bold", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #f1897b;
+  padding: 0;
 }
 
 .button::after {
-    content: "";
-    width: 112px;
-    height: 13px;
-    background-color: #F1897B;
-    position: absolute;
-    left: 10px;
-    bottom: -4px;
-    opacity: 0.3;
+  content: "";
+  width: 112px;
+  height: 13px;
+  background-color: #f1897b;
+  position: absolute;
+  left: 10px;
+  bottom: -4px;
+  opacity: 0.3;
+}
+/* Працюю над своїм блоком */
+.benefits {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.benefits__wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-top: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.benefits__container {
+  width: 570px;
+  height: 340px;
+  padding: 50px 35px;
+  border-top: 1px solid #e4e4e4;
+  box-sizing: border-box;
+}
+.title {
+  width: 500px;
 }
