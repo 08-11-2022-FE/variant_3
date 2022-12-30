@@ -191,3 +191,110 @@
 .title {
   width: 500px;
 }
+
+/* styling for section info starts */
+.info {
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+.statistics {
+  width: 770px;
+  height: 580px;
+  background: #FFFFFF;
+  opacity: 0.9;
+  position: absolute;
+  z-index: 1;
+  top: 45px;
+  right: 0;
+  display: flex;
+  align-items: center;
+
+}
+.statistics__numbers {
+  width: 370px;
+  height: 490px;
+
+}
+.statistics__text {
+  width: 400px;
+  height: 490px;
+}
+.statistics__titles {
+  font-family: "Conv_PlayfairDisplay-Regular";
+  font-size: 68px;
+  line-height: 72px;
+  text-align: center;
+  color: #262A3F;
+  margin-bottom: 12px;
+}
+.statistics__titles::before {
+  content: '$';
+  font-family: "Conv_PlayfairDisplay-Regular";
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #E4E4E4;
+  margin-right: 10px;
+}
+.statistics__titles span {
+  display: block;
+  font-family: "Conv_Lato-Light";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #262A3F;
+  opacity: 0.8;
+}
+.horizontal__line {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.horizontal__line span {
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color:  #85BBB1;
+}
+.statistics__text p {
+  font-family: "Conv_Lato-Light";
+  font-size: 18px;
+  line-height: 26px;
+  color: #262A3F;
+  opacity: 0.8;
+}
+.statistics__text p:first-child {
+  margin-bottom: 37px;
+}
+.statistics__link {
+  display: block;
+  font-family: "Conv_Lato-Bold";
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #F1897B;
+  text-decoration: none;
+  margin-top: 50px;
+  position: relative;
+  width: 177px;
+  height: 20px;
+}
+.statistics__link::after {
+  content: "";
+  display: block;
+  background: #F1897B;
+  opacity: 0.3;
+  position: absolute;
+  left: 5.49%;
+  right: 0;
+  top: 45.83%;
+  bottom: 0;
+  height: 13px;
+  width: 172px;
+}
+
+/* styling for section info ends */
